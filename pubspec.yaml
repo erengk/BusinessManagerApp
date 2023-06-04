@@ -1,0 +1,57 @@
+name: BM
+description: Business Manager App
+
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^4.0.5
+  provider: ^6.0.5
+  flutter_colorpicker: ^0.6.0
+  intl: ^0.17.0
+  uuid: ^3.0.4
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: 0.9.2
+  font_awesome_flutter: '>= 4.7.0'
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/empty_worklist.png"
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground: "assets/images/BM.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/business_card_assets/
+    - assets/sample_data/
+    - assets/profile_pics/
+    - assets/images/
+    - assets/projects/
+    - assets/fonts/
+
+  fonts:
+    - family: WorkSansSemiBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-SemiBold.ttf
+
+    - family: WorkSansBold
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Bold.ttf
+
+    - family: WorkSansMedium
+      fonts:
+        - asset: assets/fonts/Work_Sans/WorkSans-Medium.ttf

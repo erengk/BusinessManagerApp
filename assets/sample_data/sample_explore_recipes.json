@@ -1,0 +1,98 @@
+{
+    "recipes": [
+        {
+            "id": "1",
+            "cardType": "card1",
+            "title": "Amazon",
+            "subtitle": "E-Ticaret Sitesi",
+            "backgroundImage": "assets/projects/amazon.png",
+            "backgroundImageSource": "",
+            "message": "Bitirdiğim ilk projem",
+            "authorName": "Ray Wenderlich",
+            "role": "Developer",
+            "authorImage": "",
+            "durationInMinutes": null,
+            "dietType": "",
+            "calories": null,
+            "tags": ["Carbs", "Dough", "Crunchy", "Yummy"],
+            "description": "food made of flour, water, and yeast or another leavening agent, mixed together and baked: a loaf of bread",
+            "source": "Apple Dictionary",
+            "ingredients": [
+                {
+                    "imageUrl": "food_flour.jpg",
+                    "title": "Flour",
+                    "source": "https://pixabay.com/photos/bake-butter-flour-mountain-pile-599521/"
+                },
+                {
+                    "imageUrl": "food_dozen_eggs.jpg",
+                    "title": "Dozen Eggs",
+                    "source": "https://pixabay.com/photos/egg-hen-s-egg-food-nutrition-1374141/"
+                }
+            ],
+            "instructions": [
+                {
+                    "imageUrl": "food_flour.jpg",
+                    "description": "Pour the flour on the table.",
+                    "durationInMinutes": 5
+                },
+                {
+                    "imageUrl": "food_dozen_eggs.jpg",
+                    "description": "Mix the eggs with the flour. ",
+                    "durationInMinutes": 5
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "cardType": "card2",
+            "title": "Apple",
+            "subtitle": "E-Ticaret Sitesi",
+            "backgroundImage": "assets/projects/apple.png",
+            "backgroundImageSource": "https://www.foodiesfeed.com/free-food-photo/peanut-butter-and-banana-smoothie/",
+            "message": "Ticaretten Devam Edelim Dedim",
+            "authorName": "Selin Ruhi",
+            "role": "Smoothie Connoisseur",
+            "profileImage": "assets/profile_pics/person_stef.jpeg",
+            "durationInMinutes": 15,
+            "dietType": "Standard",
+            "calories": 136,
+            "tags": ["Drink", "Nuts", "Smooth", "Energy"],
+            "description": "a thick, smooth drink of fresh fruit pureed with milk, yogurt, or ice cream.",
+            "source": "Apple Dictionary",
+            "ingredients": [
+                {
+                    "imageUrl": "food_peanutbutter.png",
+                    "title": "Peanut Butter",
+                    "source": "https://pixabay.com/photos/almond-blue-cook-cooking-egg-fat-1850615/"
+                },
+                {
+                    "imageUrl": "food_soymilk.png",
+                    "title": "Soy Milk",
+                    "source": "https://pixabay.com/photos/soy-milk-soy-soybean-soy-milk-2263942/"
+                },
+                {
+                    "imageUrl": "food_banana.jpg",
+                    "title": "Banana",
+                    "source": "https://pixabay.com/photos/bananas-fruit-food-fresh-mature-3700718/"
+                }
+            ],
+            "instructions": [
+                {
+                    "imageUrl": "food_banana.jpg",
+                    "description": "Peel the banana, cut it in half and place it in the blender.",
+                    "durationInMinutes": 1
+                },
+                {
+                    "imageUrl": "",
+                    "description": "Add two big scoops of peanut butter.",
+                    "durationInMinutes": 1
+                },
+                {
+                    "imageUrl": "",
+                    "description": "Add 2 cups of almond milk. Depending on the portion you may want to add more milk. You can add any type of milk you want.",
+                    "durationInMinutes": 5
+                }
+            ]
+        }
+    ]
+}
